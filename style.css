@@ -194,3 +194,75 @@ div {
   background-image: url('/images/tiktok-icon.gif');
   transform: scale(1.15);
 }
+
+/* Contatti */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #011B2F;
+}
+
+button {
+    padding: 12px;
+    background-color: #F4E67B;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #FFD700;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, alph0.2a);
+    width: 350px;
+    text-align: center;
+}
+
+.form-container h1 {
+    margin-bottom: 20px;
+    color: #011B2F;
+}
+
+.contact-form {
+    margin-bottom: 20px;
+    color: #011B2F;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3;
+    display: flex;
+    align-items: center;
+}
+
+.contact-form button:hover {
+    background-color: #FFD700;
+}
