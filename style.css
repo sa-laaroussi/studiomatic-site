@@ -1,0 +1,196 @@
+/* === PALETTE COLORI STUDIOMATIC ===
+#011B2F (blu scuro)
+#012D4B
+#003F66
+#F4E67B
+#FADF3E
+#FFD700 (giallo acceso)
+*/
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: #011B2F;
+}
+
+div {
+    unicode-bidi: isolate;
+    display: block;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding: 15px 1rem;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+    box-sizing: border-box;
+    z-index: 1000;
+    transition: top 0.3s;
+}
+
+.navbar i {
+    margin-right: 5px;
+    transition: color 0.3s ease;
+    font-size: medium;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    color: #011B2F;
+}
+
+.nav-links a:hover {
+    background-color: #F4E67B;
+    color: #011B2F;
+}
+
+/*=== FOOTER ===*/
+.footer {
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    color: #011B2F;
+    font-size: 16px;
+}
+
+/* Footer superiore - copyright e logo */
+.footer-upper {
+    text-align: center;
+}
+
+.footer-upper p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.footer-upper a {
+    color: #011B2F;
+    text-decoration: none;
+    margin: 0 8px;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.footer-upper a:hover {
+    color: #FADF3E;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+/* Footer centrale - navigazione e contatti */
+.links-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 100%;
+    margin: 20px auto 0 auto;
+    padding: 0 10%;
+    gap: 20px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+/*Generale - Parte centrale: icone*/
+.links-container i {
+    margin-right: 5px;
+    transition: color 0.3s ease;
+    font-size: small;
+}
+
+/* Navigazione e Contatti: elenchi*/
+.footer-navigation ul, .footer-contacts ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-navigation li, .footer-contacts li {
+    margin-bottom: 8px;
+}
+
+.footer-navigation a, .footer-contacts a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+.footer-navigation a:hover, .footer-contacts a:hover {
+    color: #FADF3E;
+}
+
+/* Contatti */
+.footer-contacts li p {
+    margin: 0;
+    font-size: 14px;
+    text-align: left;
+    line-height: 1.2;
+}
+
+.footer-contacts li p span {
+    margin-left: 21px;
+}
+
+/* Footer basso - social */
+.footer-bottom {
+  text-align: center;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.footer-social a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  transition: transform 0.3s, background-image 0.3s ease;
+}
+
+/* Instagram */
+.social-instagram a {
+  background-image: url('/images/instagram-icon-static.png');
+}
+.social-instagram a:hover {
+  background-image: url('/images/instagram-icon.gif');
+  transform: scale(1.15);
+}
+
+/* TikTok */
+.social-tiktok a {
+  background-image: url('/images/tiktok-icon-static.png');
+}
+.social-tiktok a:hover {
+  background-image: url('/images/tiktok-icon.gif');
+  transform: scale(1.15);
+}
